@@ -1,6 +1,7 @@
 package ru.shilo.mapper;
 
-import hw3_smale_project_with_jdbc.model.Teacher;
+
+import ru.shilo.model.Teacher;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

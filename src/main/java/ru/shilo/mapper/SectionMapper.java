@@ -1,6 +1,5 @@
 package ru.shilo.mapper;
 
-import hw3_smale_project_with_jdbc.model.Section;
 import ru.shilo.model.Section;
 
 import java.sql.ResultSet;
