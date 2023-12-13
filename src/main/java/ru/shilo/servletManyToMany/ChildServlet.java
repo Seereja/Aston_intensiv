@@ -1,7 +1,6 @@
 package ru.shilo.servletManyToMany;
 
-import hw4_smale_project_with_hibirnate.config.DBConfig;
-import hw4_smale_project_with_hibirnate.model.Child;
+
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServlet;
@@ -9,6 +8,8 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import ru.shilo.config.DBConfig;
+import ru.shilo.model.Child;
 
 import java.io.IOException;
 import java.util.List;

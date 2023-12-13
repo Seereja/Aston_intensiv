@@ -1,9 +1,11 @@
 package ru.shilo.repository.repositoryAbstract;
 
 
-import hw4_smale_project_with_hibirnate.DTO.ChildDTO;
-import hw4_smale_project_with_hibirnate.model.Child;
-import hw4_smale_project_with_hibirnate.model.User;
+
+
+import ru.shilo.DTO.ChildDTO;
+import ru.shilo.model.Child;
+import ru.shilo.model.User;
 
 import java.util.List;
 

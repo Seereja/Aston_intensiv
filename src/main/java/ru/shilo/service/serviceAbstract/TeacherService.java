@@ -1,7 +1,9 @@
 package ru.shilo.service.serviceAbstract;
 
-import hw4_smale_project_with_hibirnate.DTO.TeacherDTO;
-import hw4_smale_project_with_hibirnate.model.Teacher;
+
+
+import ru.shilo.DTO.TeacherDTO;
+import ru.shilo.model.Teacher;
 
 import java.sql.SQLException;
 import java.util.List;

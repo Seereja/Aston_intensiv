@@ -1,9 +1,11 @@
 package ru.shilo.service;
 
-import hw4_smale_project_with_hibirnate.DTO.SectionDTO;
-import hw4_smale_project_with_hibirnate.model.Section;
-import hw4_smale_project_with_hibirnate.repository.SectionDAOImp;
-import hw4_smale_project_with_hibirnate.service.serviceAbstract.SectionService;
+
+
+import ru.shilo.DTO.SectionDTO;
+import ru.shilo.model.Section;
+import ru.shilo.repository.SectionDAOImp;
+import ru.shilo.service.serviceAbstract.SectionService;
 
 import java.util.List;
 

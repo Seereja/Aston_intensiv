@@ -1,14 +1,15 @@
 package ru.shilo.repository;
 
-import hw4_smale_project_with_hibirnate.DTO.TeacherDTO;
-import hw4_smale_project_with_hibirnate.config.DBConfig;
-import hw4_smale_project_with_hibirnate.mapperInterface.TeacherModelMapper;
-import hw4_smale_project_with_hibirnate.model.Teacher;
-import hw4_smale_project_with_hibirnate.repository.repositoryAbstract.TeacherDAO;
+
 import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+import ru.shilo.DTO.TeacherDTO;
+import ru.shilo.config.DBConfig;
+import ru.shilo.mapperInterface.TeacherModelMapper;
+import ru.shilo.model.Teacher;
+import ru.shilo.repository.repositoryAbstract.TeacherDAO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;

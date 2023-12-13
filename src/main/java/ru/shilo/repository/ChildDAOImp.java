@@ -1,16 +1,17 @@
 package ru.shilo.repository;
 
-import hw4_smale_project_with_hibirnate.DTO.ChildDTO;
-import hw4_smale_project_with_hibirnate.config.DBConfig;
-import hw4_smale_project_with_hibirnate.mapper.ChildMapper;
-import hw4_smale_project_with_hibirnate.mapperInterface.ChildModelMapper;
-import hw4_smale_project_with_hibirnate.model.Child;
-import hw4_smale_project_with_hibirnate.model.User;
-import hw4_smale_project_with_hibirnate.repository.repositoryAbstract.ChildDAO;
+
 import org.hibernate.Hibernate;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+import ru.shilo.DTO.ChildDTO;
+import ru.shilo.config.DBConfig;
+import ru.shilo.mapper.ChildMapper;
+import ru.shilo.mapperInterface.ChildModelMapper;
+import ru.shilo.model.Child;
+import ru.shilo.model.User;
+import ru.shilo.repository.repositoryAbstract.ChildDAO;
 
 import java.util.ArrayList;
 import java.util.List;

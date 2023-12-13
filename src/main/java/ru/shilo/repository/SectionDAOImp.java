@@ -1,14 +1,15 @@
 package ru.shilo.repository;
 
-import hw4_smale_project_with_hibirnate.DTO.SectionDTO;
-import hw4_smale_project_with_hibirnate.config.DBConfig;
-import hw4_smale_project_with_hibirnate.mapperInterface.SectionModelMapper;
-import hw4_smale_project_with_hibirnate.model.Section;
-import hw4_smale_project_with_hibirnate.model.Teacher;
-import hw4_smale_project_with_hibirnate.repository.repositoryAbstract.SectionDAO;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+import ru.shilo.DTO.SectionDTO;
+import ru.shilo.config.DBConfig;
+import ru.shilo.mapperInterface.SectionModelMapper;
+import ru.shilo.model.Section;
+import ru.shilo.model.Teacher;
+import ru.shilo.repository.repositoryAbstract.SectionDAO;
 
 import java.util.ArrayList;
 import java.util.List;

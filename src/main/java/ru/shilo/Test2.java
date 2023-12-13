@@ -1,8 +1,12 @@
 package ru.shilo;
 
-import hw4_smale_project_with_hibirnate.config.DBConfig;
-import hw4_smale_project_with_hibirnate.service.*;
+
 import org.hibernate.Session;
+import ru.shilo.config.DBConfig;
+import ru.shilo.service.ChildServiceImpl;
+import ru.shilo.service.SectionServiceImpl;
+import ru.shilo.service.TeacherServiceImpl;
+import ru.shilo.service.UserServiceImpl;
 
 public class Test2 {
 

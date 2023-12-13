@@ -1,7 +1,9 @@
 package ru.shilo.repository.repositoryAbstract;
 
-import hw4_smale_project_with_hibirnate.DTO.SectionDTO;
-import hw4_smale_project_with_hibirnate.model.Section;
+
+
+import ru.shilo.DTO.SectionDTO;
+import ru.shilo.model.Section;
 
 import java.sql.SQLException;
 import java.util.List;

@@ -1,7 +1,9 @@
 package ru.shilo.repository.repositoryAbstract;
 
-import hw4_smale_project_with_hibirnate.DTO.UserDTO;
-import hw4_smale_project_with_hibirnate.model.User;
+
+
+import ru.shilo.DTO.UserDTO;
+import ru.shilo.model.User;
 
 import java.sql.SQLException;
 import java.util.List;

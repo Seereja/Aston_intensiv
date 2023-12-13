@@ -1,9 +1,11 @@
 package ru.shilo.service;
 
-import hw4_smale_project_with_hibirnate.DTO.ChildDTO;
-import hw4_smale_project_with_hibirnate.model.Child;
-import hw4_smale_project_with_hibirnate.repository.ChildDAOImp;
-import hw4_smale_project_with_hibirnate.service.serviceAbstract.ChildService;
+
+
+import ru.shilo.DTO.ChildDTO;
+import ru.shilo.model.Child;
+import ru.shilo.repository.ChildDAOImp;
+import ru.shilo.service.serviceAbstract.ChildService;
 
 import java.util.List;
 

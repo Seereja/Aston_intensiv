@@ -1,12 +1,13 @@
 package ru.shilo.repository;
 
-import hw4_smale_project_with_hibirnate.DTO.UserDTO;
-import hw4_smale_project_with_hibirnate.config.DBConfig;
-import hw4_smale_project_with_hibirnate.model.User;
-import hw4_smale_project_with_hibirnate.repository.repositoryAbstract.UserDAO;
+
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
+import ru.shilo.DTO.UserDTO;
+import ru.shilo.config.DBConfig;
+import ru.shilo.model.User;
+import ru.shilo.repository.repositoryAbstract.UserDAO;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
