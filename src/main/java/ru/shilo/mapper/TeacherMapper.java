@@ -11,7 +11,7 @@ import java.util.List;
 public class TeacherMapper {
     public Teacher toTeacher(ResultSet resultSet) throws SQLException {
         Teacher teacher = new Teacher();
-        teacher.setId(resultSet.getInt("id"));
+//        teacher.setId(resultSet.getInt("id"));
         teacher.setName(resultSet.getString("name"));
         teacher.setSurname(resultSet.getString("surname"));
         return teacher;

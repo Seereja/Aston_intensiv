@@ -1,41 +1,44 @@
 package ru.shilo.model;
 
-public class Section {
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-    private int id;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
-    private String name;
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "sections")
+public class Section extends GenericModel {
 
-    public Section() {
+    @Column(name = "section_name")
+    private String sectionName;
 
-    }
-
-    public Section(int id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "sections")
+    private Set<Child> children = new HashSet<>();
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "section")
+    private List<Teacher> teachers;
 
     @Override
     public String toString() {
         return "Section{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                '}';
+                "sectionName='" + sectionName;
     }
+
+
+    //    @Override
+//    public String toString() {
+//        return "Section{" +
+//                "name='" + sectionName + '\'' +
+//                ", children=" + children +
+//                ", teachers=" + teachers +
+//                '}';
+//    }
 }

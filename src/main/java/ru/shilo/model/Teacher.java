@@ -1,50 +1,32 @@
 package ru.shilo.model;
 
-public class Teacher {
-    private int id;
-    private String name;
-    private String surname;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
-    public Teacher() {
-
-    }
-
-    public Teacher(int id, String name, String surname) {
-        this.id = id;
-        this.name = name;
-        this.surname = surname;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSurname() {
-        return surname;
-    }
-
-    public void setSurname(String surname) {
-        this.surname = surname;
-    }
+@Setter
+@Getter
+@NoArgsConstructor
+@AllArgsConstructor
+@Entity
+@Table(name = "teachers")
+public class Teacher extends User {
+    @Column(name = "category")
+    private String category;
+    @ManyToOne
+    @JoinColumn(name = "section_id")
+    private Section section;
 
     @Override
     public String toString() {
         return "Teacher{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
+                "category=" + category +
+                ", section=" + section +
                 '}';
     }
+
+
+
 }

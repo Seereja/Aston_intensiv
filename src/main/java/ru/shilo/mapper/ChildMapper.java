@@ -11,7 +11,7 @@ import java.util.List;
 public class ChildMapper {
     public Child toChild(ResultSet resultSet) throws SQLException {
         Child child = new Child();
-        child.setId(resultSet.getInt("id"));
+//        child.setId(resultSet.getInt("id"));
         child.setName(resultSet.getString("name"));
         child.setSurname(resultSet.getString("surname"));
         child.setAge(resultSet.getInt("age"));
