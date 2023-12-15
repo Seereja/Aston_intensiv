@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>User Page</h1>
+<br>
+<table>
+    <span th:text="${userGetId.getName()}"></span>
+    <span th:text="${userGetId.getSurname()}"></span>
+    <span th:text="${userGetId.getAge()}"></span>
+    <span th:text="${userGetId.getPhone()}"></span>
+    <span th:text="${userGetId.getEmail()}"></span>
+</table>
+</body>
+</html>
