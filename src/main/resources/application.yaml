@@ -1,29 +1,24 @@
-#spring:
-#  datasource:
-#    driver-class-name: org.postgresql.Driver
-#    username: postgres
-#    password: 1234
-#    url: jdbc:postgresql://localhost:5432/sports_db
+
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/sports_db
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: 1234
-#springdoc:
-#  api-docs:
-#    enabled: true
-#    path: /api-docs
-#  swagger-ui:
-#    enabled: true
-#    path: /swagger-ui.html
-#
-#info:
-#  title: ???? ??????????
-#  version: v0.1
-#  contact:
-#    name: Shilin V.
-#
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
+
+info:
+  title: ???? ??????????
+  version: v0.1
+  contact:
+    name: Shilin V.
+
 management:
   endpoints:
     web:

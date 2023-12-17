@@ -7,15 +7,15 @@ import io.swagger.v3.oas.models.info.Info;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
-public class OpenApiConfig {
-    @Bean
-    public OpenAPI SectionProject() {
-        return new OpenAPI()
-                .info(new Info()
-                        .title("Сайт спортшколы")
-                        .version("v0.1")
-                        .contact(new Contact().name("Shilin V."))
-                );
-    }
-}
+//@Configuration
+//public class OpenApiConfig {
+//    @Bean
+//    public OpenAPI SectionProject() {
+//        return new OpenAPI()
+//                .info(new Info()
+//                        .title("Сайт спортшколы")
+//                        .version("v0.1")
+//                        .contact(new Contact().name("Shilin V."))
+//                );
+//    }
+//}
